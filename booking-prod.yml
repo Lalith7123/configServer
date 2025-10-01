@@ -1,0 +1,63 @@
+build:
+  version: "1.0"
+
+common-details:
+  trainCategory:
+    PASSENGER:
+      avgSpeed: 70
+      costPerKm: 0.20
+      stopDurationForCity: 15
+      stopDurationForNonCity: 5
+      maximumCoachCount: 6
+      minimumCoachCount: 2
+      coachCriteria:
+        PASSENGER-COACH: 6
+      minimumStoppingPoints: 5
+      maximumStoppingPoints: 20
+      maximumUnStoppedStationDistance: 70
+      maximumDistance: 300
+    EXPRESS:
+      avgSpeed: 110
+      costPerKm: 0.30
+      stopDurationForCity: 10
+      stopDurationForNonCity: 3
+      maximumCoachCount: 10
+      minimumCoachCount: 4
+      coachCriteria:
+        PASSENGER-COACH: 2
+        SITTER-COACH: 8
+        SLEEPER-COACH: 2
+      minimumStoppingPoints: 8
+      maximumStoppingPoints: 30
+      maximumUnStoppedStationDistance: 150
+      maximumDistance: 500
+    SUPERFAST:
+      avgSpeed: 150
+      costPerKm: 0.50
+      stopDurationForCity: 5
+      stopDurationForNonCity: 0
+      maximumCoachCount: 6
+      minimumCoachCount: 4
+      coachCriteria:
+        TIER-TWO-COACH: 6
+      minimumStoppingPoints: 5
+      maximumStoppingPoints: 10
+      maximumUnStoppedStationDistance: 200
+      maximumDistance: 1000
+  coachCategory:
+    PASSENGER:
+      seatCount: 30
+      preferenceCount: 0
+      cost: 0
+    SITTER:
+      seatCount: 12
+      preferenceCount: 3
+      cost: 0.10
+    SLEEPER:
+      seatCount: 16
+      preferenceCount: 5
+      cost: 0.40
+    TIER-TWO:
+      seatCount: 12
+      preferenceCount: 4
+      cost: 0.80
