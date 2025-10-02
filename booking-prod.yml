@@ -54,10 +54,11 @@ common-details:
       preferenceCount: 3
       cost: 0.10
     SLEEPER:
-      seatCount: 16
+      seatCount: 15
       preferenceCount: 5
       cost: 0.40
     TIER-TWO:
       seatCount: 12
       preferenceCount: 4
       cost: 0.80
+
