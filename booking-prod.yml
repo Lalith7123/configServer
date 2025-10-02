@@ -50,7 +50,7 @@ common-details:
       preferenceCount: 0
       cost: 0
     SITTER:
-      seatCount: 12
+      seatCount: 18
       preferenceCount: 3
       cost: 0.10
     SLEEPER:
@@ -61,5 +61,6 @@ common-details:
       seatCount: 12
       preferenceCount: 4
       cost: 0.80
+
 
 
