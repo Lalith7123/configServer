@@ -49,23 +49,21 @@ common-details:
       seatCount: 30
       preferenceCount: 0
       cost: 0
-      code: UR
     SITTER:
-      seatCount: 18
+      seatCount: 12
       preferenceCount: 3
       cost: 0.10
-      code: D
     SLEEPER:
       seatCount: 16
       preferenceCount: 5
       cost: 0.40
-      code: S
     TIER-TWO:
       seatCount: 12
       preferenceCount: 4
       cost: 0.80
-      code: B
-
-
-
-
+  bookingCategory:
+    DAILY: 2
+    WEEKLY: 1
+    MONTHLY: 1
+    chartPreparationBeforeTrainDepartedInMinutes: 60
+    bookingShouldOpenBeforeTrainDepartedInMinutes: 300
