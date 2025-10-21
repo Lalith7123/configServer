@@ -27,7 +27,7 @@ common-details:
         PASSENGER-COACH: 2
         SITTER-COACH: 8
         SLEEPER-COACH: 2
-      minimumStoppingPoints: 8
+      minimumStoppingPoints: 3
       maximumStoppingPoints: 30
       maximumUnStoppedStationDistance: 150
       maximumDistance: 500
@@ -67,3 +67,4 @@ common-details:
     MONTHLY: 1
     chartPreparationBeforeTrainDepartedInMinutes: 60
     bookingShouldOpenBeforeTrainDepartedInMinutes: 300
+
