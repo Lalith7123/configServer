@@ -62,11 +62,12 @@ common-details:
       preferenceCount: 4
       cost: 0.80
   bookingCategory:
-    DAILY: 1
-    WEEKLY: 2
+    DAILY: 2
+    WEEKLY: 1
     MONTHLY: 1
     chartPreparationBeforeTrainDepartedInMinutes: 60
     bookingShouldOpenBeforeTrainDepartedInMinutes: 300
+
 
 
 
