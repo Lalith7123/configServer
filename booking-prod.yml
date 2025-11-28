@@ -64,9 +64,10 @@ common-details:
   bookingCategory:
     DAILY: 2
     WEEKLY: 1
-    MONTHLY: 2
+    MONTHLY: 1
     chartPreparationBeforeTrainDepartedInMinutes: 60
     bookingShouldOpenBeforeTrainDepartedInMinutes: 300
+
 
 
 
